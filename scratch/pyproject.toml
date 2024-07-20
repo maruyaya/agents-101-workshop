@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "agent-basics"
+version = "0.1.0"
+description = ""
+authors = ["Noorain Panjwani <noorain.panjwani@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+raw = "agent_basics.raw:main"
+
+[tool.poetry.dependencies]
+python = "~3.10"
+openai = "^1.36.0"
+pyautogen = "^0.2.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
